@@ -1,0 +1,136 @@
+@charset "UFT-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+  display: block;
+  }
+/*html {
+  background: #808080;
+
+}*/
+html{
+  background: gray;
+}
+
+header#mainHeader {
+  background: #808080 url("../ImagesPro/Flor.jpeg") center center no-repeat;
+  padding-top: 10px;
+  position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  margin: 0 auto; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 70px; 
+    color: black;
+    font-weight: bold;    
+}
+/*header#mainHeader nav {
+  position: center;
+  padding-top: 15px;
+  font-size: 30px;
+  font-color: black;
+}*/
+a {
+  color: black;
+  position: center;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+p {
+  font-size: 30px;
+  color: black;
+  margin:0 auto;
+  padding: 0px 30px 0px 30px;
+ 
+}
+body {
+     
+      margin: 0 auto;
+        
+    }
+/*Links to social media*/
+/*ul {
+        padding: 10px;
+        background: rbga(0,0,0,0.5);
+        font-size: 20px;
+        position:center;
+
+      }
+li {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+        position: center;
+
+      }*/
+footer #pageFooter {
+  /*text-align: center;*/
+  margin: 0px 10px 0px 10px;
+  position : absolute;
+  bottom:0;
+  width:100%;
+  
+}
+li {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+        
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+
+      }
+
+div{
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  border: 20px;  
+
+}
+
+nav{
+
+      text-align: center;
+      color: white;
+      background-size:cover;
+      background-position: cover;
+
+    } 
+
+section #Hobbies{
+              font-size: 30px;
+              font-weight: bold;
+              padding-top: 20px;
+              padding-bottom: 60px;
+              padding-left: 30px;
+}
+   
+
+
